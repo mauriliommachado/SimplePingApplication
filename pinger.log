@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-11-23T03:38:56</date>
+  <millis>1511415536523</millis>
+  <sequence>0</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:38:56</date>
+  <millis>1511415536578</millis>
+  <sequence>1</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>22</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":null,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:38:57</date>
+  <millis>1511415537116</millis>
+  <sequence>2</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:38:57</date>
+  <millis>1511415537116</millis>
+  <sequence>3</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>21</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":null,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:00</date>
+  <millis>1511415540155</millis>
+  <sequence>4</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 129ms, M�dia = 128ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:00</date>
+  <millis>1511415540171</millis>
+  <sequence>5</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>23</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 129ms, M�dia = 128ms
+,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:00</date>
+  <millis>1511415540472</millis>
+  <sequence>6</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>24</thread>
+  <message>
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:00</date>
+  <millis>1511415540472</millis>
+  <sequence>7</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>24</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:06</date>
+  <millis>1511415546462</millis>
+  <sequence>8</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>29</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:06</date>
+  <millis>1511415546478</millis>
+  <sequence>9</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>29</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:06</date>
+  <millis>1511415546917</millis>
+  <sequence>10</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>27</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:06</date>
+  <millis>1511415546917</millis>
+  <sequence>11</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>27</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:10</date>
+  <millis>1511415550165</millis>
+  <sequence>12</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>26</thread>
+  <message>
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 128ms, M�dia = 128ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:10</date>
+  <millis>1511415550181</millis>
+  <sequence>13</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>26</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 128ms, M�dia = 128ms
+,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:10</date>
+  <millis>1511415550496</millis>
+  <sequence>14</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>25</thread>
+  <message>
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 239ms, M�dia = 239ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:10</date>
+  <millis>1511415550496</millis>
+  <sequence>15</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>25</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 239ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":null}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:13</date>
+  <millis>1511415553144</millis>
+  <sequence>16</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>19</thread>
+  <message>
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1     1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     6 ms     7 ms  10.223.228.217 
+  4     6 ms     7 ms     7 ms  10.223.228.150 
+  5    10 ms     7 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    10 ms    16 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    12 ms    10 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   129 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   136 ms   136 ms   138 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   131 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:16</date>
+  <millis>1511415556454</millis>
+  <sequence>17</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>31</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:16</date>
+  <millis>1511415556454</millis>
+  <sequence>18</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>31</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 239ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1     1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     6 ms     7 ms  10.223.228.217 
+  4     6 ms     7 ms     7 ms  10.223.228.150 
+  5    10 ms     7 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    10 ms    16 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    12 ms    10 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   129 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   136 ms   136 ms   138 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   131 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:16</date>
+  <millis>1511415556971</millis>
+  <sequence>19</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>35</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:16</date>
+  <millis>1511415556971</millis>
+  <sequence>20</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>35</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 239ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1     1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     6 ms     7 ms  10.223.228.217 
+  4     6 ms     7 ms     7 ms  10.223.228.150 
+  5    10 ms     7 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    10 ms    16 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    12 ms    10 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   129 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   136 ms   136 ms   138 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   131 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:18</date>
+  <millis>1511415558467</millis>
+  <sequence>21</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     5 ms     4 ms     5 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     5 ms     7 ms     7 ms  10.223.228.213 
+  4     6 ms     7 ms     7 ms  10.223.228.146 
+  5     5 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    10 ms    10 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   140 ms   144 ms   138 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   145 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   247 ms   249 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   239 ms   239 ms  83.231.213.54 
+ 14   283 ms   248 ms   248 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   239 ms   240 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:20</date>
+  <millis>1511415560163</millis>
+  <sequence>22</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>34</thread>
+  <message>
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 128ms, M�dia = 128ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:20</date>
+  <millis>1511415560180</millis>
+  <sequence>23</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>34</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 128ms, M�dia = 128ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     5 ms     4 ms     5 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     5 ms     7 ms     7 ms  10.223.228.213 
+  4     6 ms     7 ms     7 ms  10.223.228.146 
+  5     5 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    10 ms    10 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   140 ms   144 ms   138 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   145 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   247 ms   249 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   239 ms   239 ms  83.231.213.54 
+ 14   283 ms   248 ms   248 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   239 ms   240 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:20</date>
+  <millis>1511415560501</millis>
+  <sequence>24</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>33</thread>
+  <message>
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:20</date>
+  <millis>1511415560501</millis>
+  <sequence>25</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>33</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     5 ms     4 ms     5 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     5 ms     7 ms     7 ms  10.223.228.213 
+  4     6 ms     7 ms     7 ms  10.223.228.146 
+  5     5 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    10 ms    10 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   140 ms   144 ms   138 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   145 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   247 ms   249 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   239 ms   239 ms  83.231.213.54 
+ 14   283 ms   248 ms   248 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   239 ms   240 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:23</date>
+  <millis>1511415563014</millis>
+  <sequence>26</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>28</thread>
+  <message>
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms     1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     7 ms     7 ms  10.223.228.217 
+  4    13 ms     8 ms     6 ms  10.223.228.150 
+  5    10 ms     6 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    16 ms    10 ms    10 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    10 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   130 ms   129 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   137 ms   136 ms   137 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   131 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:26</date>
+  <millis>1511415566452</millis>
+  <sequence>27</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>38</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:26</date>
+  <millis>1511415566452</millis>
+  <sequence>28</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>38</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms     1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     7 ms     7 ms  10.223.228.217 
+  4    13 ms     8 ms     6 ms  10.223.228.150 
+  5    10 ms     6 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    16 ms    10 ms    10 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    10 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   130 ms   129 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   137 ms   136 ms   137 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   131 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:26</date>
+  <millis>1511415566949</millis>
+  <sequence>29</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>41</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:26</date>
+  <millis>1511415566949</millis>
+  <sequence>30</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>41</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms     1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     7 ms     7 ms  10.223.228.217 
+  4    13 ms     8 ms     6 ms  10.223.228.150 
+  5    10 ms     6 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    16 ms    10 ms    10 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    10 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   130 ms   129 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   137 ms   136 ms   137 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   131 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:28</date>
+  <millis>1511415568526</millis>
+  <sequence>31</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>30</thread>
+  <message>
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     9 ms     5 ms  10.223.228.213 
+  4     9 ms     7 ms     7 ms  10.223.228.146 
+  5     6 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    11 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    10 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   138 ms   138 ms   153 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   143 ms   143 ms   144 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   256 ms   248 ms   248 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   249 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   239 ms   239 ms  83.231.213.54 
+ 14   259 ms   248 ms   250 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   240 ms   239 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:30</date>
+  <millis>1511415570166</millis>
+  <sequence>32</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>37</thread>
+  <message>
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 129ms, M�dia = 128ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:30</date>
+  <millis>1511415570166</millis>
+  <sequence>33</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>37</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=129ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 129ms, M�dia = 128ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     9 ms     5 ms  10.223.228.213 
+  4     9 ms     7 ms     7 ms  10.223.228.146 
+  5     6 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    11 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    10 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   138 ms   138 ms   153 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   143 ms   143 ms   144 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   256 ms   248 ms   248 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   249 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   239 ms   239 ms  83.231.213.54 
+ 14   259 ms   248 ms   250 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   240 ms   239 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:30</date>
+  <millis>1511415570481</millis>
+  <sequence>34</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>42</thread>
+  <message>
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:30</date>
+  <millis>1511415570481</millis>
+  <sequence>35</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>42</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     9 ms     5 ms  10.223.228.213 
+  4     9 ms     7 ms     7 ms  10.223.228.146 
+  5     6 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    11 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    10 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   138 ms   138 ms   153 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   143 ms   143 ms   144 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   256 ms   248 ms   248 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   249 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   239 ms   239 ms  83.231.213.54 
+ 14   259 ms   248 ms   250 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   240 ms   239 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:33</date>
+  <millis>1511415573214</millis>
+  <sequence>36</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>36</thread>
+  <message>
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     6 ms     4 ms     7 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     9 ms     7 ms     7 ms  10.223.228.217 
+  4     9 ms     7 ms     7 ms  10.223.228.150 
+  5     6 ms     7 ms     8 ms  10.223.238.46 
+  6     4 ms     4 ms     6 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    10 ms    12 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    12 ms    11 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   130 ms   131 ms   130 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   139 ms   138 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   133 ms   132 ms   131 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:36</date>
+  <millis>1511415576457</millis>
+  <sequence>37</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>43</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:36</date>
+  <millis>1511415576457</millis>
+  <sequence>38</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>43</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     6 ms     4 ms     7 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     9 ms     7 ms     7 ms  10.223.228.217 
+  4     9 ms     7 ms     7 ms  10.223.228.150 
+  5     6 ms     7 ms     8 ms  10.223.238.46 
+  6     4 ms     4 ms     6 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    10 ms    12 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    12 ms    11 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   130 ms   131 ms   130 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   139 ms   138 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   133 ms   132 ms   131 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:36</date>
+  <millis>1511415576973</millis>
+  <sequence>39</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>47</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:36</date>
+  <millis>1511415576973</millis>
+  <sequence>40</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>47</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=240ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 240ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     6 ms     4 ms     7 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     9 ms     7 ms     7 ms  10.223.228.217 
+  4     9 ms     7 ms     7 ms  10.223.228.150 
+  5     6 ms     7 ms     8 ms  10.223.238.46 
+  6     4 ms     4 ms     6 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    11 ms    10 ms    12 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    12 ms    11 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   130 ms   131 ms   130 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   139 ms   138 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   133 ms   132 ms   131 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:38</date>
+  <millis>1511415578159</millis>
+  <sequence>41</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>32</thread>
+  <message>
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1     1 ms    &lt;1 ms     2 ms  192.168.1.1 
+  2     6 ms     5 ms     7 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     7 ms     7 ms  10.223.228.213 
+  4     6 ms     7 ms     7 ms  10.223.228.146 
+  5     5 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    12 ms    11 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    12 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   139 ms   138 ms   140 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   144 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   247 ms   249 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   249 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   240 ms   239 ms  83.231.213.54 
+ 14   248 ms   248 ms   297 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   239 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:40</date>
+  <millis>1511415580149</millis>
+  <sequence>42</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>45</thread>
+  <message>
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=130ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 130ms, M�dia = 128ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:40</date>
+  <millis>1511415580149</millis>
+  <sequence>43</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>45</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=130ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 130ms, M�dia = 128ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1     1 ms    &lt;1 ms     2 ms  192.168.1.1 
+  2     6 ms     5 ms     7 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     7 ms     7 ms  10.223.228.213 
+  4     6 ms     7 ms     7 ms  10.223.228.146 
+  5     5 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    12 ms    11 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    12 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   139 ms   138 ms   140 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   144 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   247 ms   249 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   249 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   240 ms   239 ms  83.231.213.54 
+ 14   248 ms   248 ms   297 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   239 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:40</date>
+  <millis>1511415580480</millis>
+  <sequence>44</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>46</thread>
+  <message>
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=248ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 248ms, M�dia = 241ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:40</date>
+  <millis>1511415580480</millis>
+  <sequence>45</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>46</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=248ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 248ms, M�dia = 241ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1     1 ms    &lt;1 ms     2 ms  192.168.1.1 
+  2     6 ms     5 ms     7 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     6 ms     7 ms     7 ms  10.223.228.213 
+  4     6 ms     7 ms     7 ms  10.223.228.146 
+  5     5 ms     7 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    12 ms    11 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    12 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   139 ms   138 ms   140 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   144 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   247 ms   249 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   249 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   239 ms   240 ms   239 ms  83.231.213.54 
+ 14   248 ms   248 ms   297 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   239 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:43</date>
+  <millis>1511415583030</millis>
+  <sequence>46</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>39</thread>
+  <message>
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     5 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     7 ms     7 ms     7 ms  10.223.228.217 
+  4     5 ms     7 ms     7 ms  10.223.228.150 
+  5    12 ms     7 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    10 ms    10 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    11 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   129 ms   131 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   137 ms   136 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   133 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:46</date>
+  <millis>1511415586484</millis>
+  <sequence>47</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>50</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:46</date>
+  <millis>1511415586484</millis>
+  <sequence>48</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>50</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=248ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 248ms, M�dia = 241ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     5 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     7 ms     7 ms     7 ms  10.223.228.217 
+  4     5 ms     7 ms     7 ms  10.223.228.150 
+  5    12 ms     7 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    10 ms    10 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    11 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   129 ms   131 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   137 ms   136 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   133 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:47</date>
+  <millis>1511415587001</millis>
+  <sequence>49</sequence>
+  <logger>com.maurilio.simplepingapplication.TcpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TcpPinger</class>
+  <method>run</method>
+  <thread>51</thread>
+  <message>301 Moved Permanently</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:47</date>
+  <millis>1511415587001</millis>
+  <sequence>50</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>51</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=248ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 248ms, M�dia = 241ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     5 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     7 ms     7 ms     7 ms  10.223.228.217 
+  4     5 ms     7 ms     7 ms  10.223.228.150 
+  5    12 ms     7 ms     7 ms  10.223.238.46 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    10 ms    10 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    11 ms    10 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   129 ms   131 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   137 ms   136 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   132 ms   133 ms   132 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:48</date>
+  <millis>1511415588403</millis>
+  <sequence>51</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>40</thread>
+  <message>
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     4 ms     7 ms     7 ms  10.223.228.213 
+  4     7 ms     7 ms     7 ms  10.223.228.146 
+  5     6 ms     6 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    10 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    10 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   138 ms   138 ms   139 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   143 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   249 ms   247 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   242 ms   239 ms   239 ms  83.231.213.54 
+ 14   248 ms   248 ms   257 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   241 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:50</date>
+  <millis>1511415590195</millis>
+  <sequence>52</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>52</thread>
+  <message>
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=131ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 131ms, M�dia = 128ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:50</date>
+  <millis>1511415590195</millis>
+  <sequence>53</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>52</thread>
+  <message>{"host":www.jasmin.com,"icmp_ping":
+Disparando www.jasmin.com [109.71.161.154] com 32 bytes de dados:
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=131ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+Resposta de 109.71.161.154: bytes=32 tempo=128ms TTL=54
+
+Estat�sticas do Ping para 109.71.161.154:
+    Pacotes: Enviados = 5, Recebidos = 5, Perdidos = 0 (0% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 128ms, M�ximo = 131ms, M�dia = 128ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     4 ms     7 ms     7 ms  10.223.228.213 
+  4     7 ms     7 ms     7 ms  10.223.228.146 
+  5     6 ms     6 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    10 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    10 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   138 ms   138 ms   139 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   143 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   249 ms   247 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   242 ms   239 ms   239 ms  83.231.213.54 
+ 14   248 ms   248 ms   257 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   241 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:50</date>
+  <millis>1511415590495</millis>
+  <sequence>54</sequence>
+  <logger>com.maurilio.simplepingapplication.IcmpPinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.IcmpPinger</class>
+  <method>run</method>
+  <thread>53</thread>
+  <message>
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 239ms, M�dia = 239ms
+</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:50</date>
+  <millis>1511415590495</millis>
+  <sequence>55</sequence>
+  <logger>com.maurilio.simplepingapplication.Report</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.Report</class>
+  <method>report</method>
+  <thread>53</thread>
+  <message>{"host":www.oranum.com,"icmp_ping":
+Disparando www.oranum.com [216.172.0.161] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+Resposta de 216.172.0.161: bytes=32 tempo=239ms TTL=50
+
+Estat�sticas do Ping para 216.172.0.161:
+    Pacotes: Enviados = 5, Recebidos = 4, Perdidos = 1 (20% de
+             perda),
+Aproximar um n�mero redondo de vezes em milissegundos:
+    M�nimo = 239ms, M�ximo = 239ms, M�dia = 239ms
+,"tcp_ping":301 Moved Permanently,"trace":
+Rastreando a rota para www.oranum.com [216.172.0.161]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.1.1 
+  2     4 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     4 ms     7 ms     7 ms  10.223.228.213 
+  4     7 ms     7 ms     7 ms  10.223.228.146 
+  5     6 ms     6 ms     7 ms  10.223.238.50 
+  6     4 ms     4 ms     4 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    12 ms    10 ms    10 ms  et10-1-0.sanpaolo8.spa.seabone.net [195.22.219.145] 
+  8    11 ms    10 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   138 ms   138 ms   139 ms  ae-7.r20.miamfl02.us.bb.gin.ntt.net [129.250.2.224] 
+ 10   143 ms   143 ms   143 ms  ae-4.r23.asbnva02.us.bb.gin.ntt.net [129.250.2.86] 
+ 11   247 ms   249 ms   247 ms  ae-2.r25.amstnl02.nl.bb.gin.ntt.net [129.250.6.163] 
+ 12   250 ms   250 ms   250 ms  ae-2.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.159] 
+ 13   242 ms   239 ms   239 ms  83.231.213.54 
+ 14   248 ms   248 ms   257 ms  TE-0-0-0-3.core1.lux.dditservices.com [5.159.218.61] 
+ 15   239 ms   241 ms   239 ms  216.172.0.161 
+
+Rastreamento conclu�do.
+}</message>
+</record>
+<record>
+  <date>2017-11-23T03:39:53</date>
+  <millis>1511415593001</millis>
+  <sequence>56</sequence>
+  <logger>com.maurilio.simplepingapplication.TracePinger</logger>
+  <level>INFO</level>
+  <class>com.maurilio.simplepingapplication.TracePinger</class>
+  <method>run</method>
+  <thread>44</thread>
+  <message>
+Rastreando a rota para www.jasmin.com [109.71.161.154]
+com no m�ximo 30 saltos:
+
+  1    &lt;1 ms    &lt;1 ms     1 ms  192.168.1.1 
+  2     6 ms     4 ms     4 ms  186-230-192-100.ded.intelignet.com.br [186.230.192.100] 
+  3     9 ms     6 ms     7 ms  10.223.228.217 
+  4     9 ms     4 ms     7 ms  10.223.228.150 
+  5    10 ms    13 ms     5 ms  10.223.238.46 
+  6     4 ms     4 ms     5 ms  et2-0-0.riodejaneiro6.rio.seabone.net [213.144.160.113] 
+  7    10 ms    10 ms    11 ms  ae7.sanpaolo8.spa.seabone.net [195.22.219.17] 
+  8    11 ms    11 ms    11 ms  ntt-verio.sanpaolo8.spa.seabone.net [149.3.181.65] 
+  9   129 ms   136 ms   129 ms  ae-4.r24.nycmny01.us.bb.gin.ntt.net [129.250.2.227] 
+ 10   138 ms   136 ms   136 ms  ae-1.r07.nycmny01.us.bb.gin.ntt.net [129.250.3.181] 
+ 11   131 ms   131 ms   131 ms  xe-0-1-0-7.r07.nycmny01.us.ce.gin.ntt.net [157.238.179.58] 
+ 12   128 ms   128 ms   128 ms  109.71.161.154 
+
+Rastreamento conclu�do.
+</message>
+</record>
